@@ -320,7 +320,7 @@
 
 .gallery-photo {
     height: 337.5px;
-    width: 337.3px;
+    width: calc(100%/4);
 }
 
 .contact {
