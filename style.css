@@ -66,3 +66,329 @@
     transform: translateX(-50%);
     border-radius: 4px;
 }
+
+.header-buttons {
+    text-transform: uppercase;
+}
+
+.book-table {
+    margin-right: 40px;
+}
+
+.book-table,
+.explore {
+    font-size: 16px;
+    font-weight: 400;
+    transition-duration: 1.1s;
+    background: transparent;
+    color: white;
+    height: 60px;
+    width: 200px;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.book-table:hover,
+.explore:hover {
+    background: #E8C300;
+    border-radius: 5px;
+}
+
+.header-left-text {
+    position: absolute;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 12px;
+    margin-left: 80px;
+    color: white;
+}
+
+.left-text {
+    transform: rotate(-90deg);
+    position: relative;
+    top: -150px;
+}
+
+.header-right-icons {
+    text-align: right;
+    margin-right: 80px;
+    position: relative;
+    top: -270px;
+}
+
+.twitter-icon {
+    margin: 20px 0;
+}
+
+.header-arrow {
+    position: relative;
+    margin-top: 60px;
+    padding-bottom: 180px;
+}
+
+.down-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.about-section {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.left-side {
+    margin: 217px 80px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+}
+
+.left-side__line {
+    margin: 10px 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.descriptions {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.right-side {
+    position: relative;
+}
+
+.right-side__main-photo {
+    margin: 100px 50px;
+}
+
+.right-side__square {
+    position: relative;
+    top: -450px;
+    right: 0;
+}
+
+.our-team {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background: url("./images/team-bg.png");
+    background-size: cover;
+}
+
+.our-team__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100px;
+    letter-spacing: 6px;
+}
+
+.our-team__left-side {
+    position: relative;
+}
+
+.our-team__left-side__square {
+    position: relative;
+    top: -280px;
+    left: 350px;
+}
+
+.our-team__right-side {
+    margin: 150px 100px 217px 72px;
+    text-align: center;
+}
+
+.sides {
+    display: flex;
+}
+
+.booking {
+    height: 100vh;
+    width: 100%;
+}
+
+.booking__left-side {
+    margin: 140px 40px 0 70px;
+    text-align: center;
+}
+
+.booking__left-side__line {
+    margin-bottom: 20px;
+}
+
+.form__inputs {
+    width: 626px;
+}
+
+.form__inputs input {
+    background: #E5E5E5;
+    border-radius: 5px;
+    height: 60px;
+    width: 276px;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.btn__book-now {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 20px;
+    height: 60px;
+    width: 600px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: #E8C300;
+    margin-right: 10px;
+}
+
+.booking__right-side {
+    position: relative;
+}
+
+.booking-right-side__square {
+    position: relative;
+    top: -250px;
+    right: 0;
+}
+
+.booking__title span {
+    font-weight: 700;
+}
+
+.specialties {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background: url("./images/specialty's-bg.png");
+    background-size: cover;
+}
+
+.specialties__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
+.specialties__left-side {
+    position: relative;
+}
+
+.specialties__left-side__square {
+    position: relative;
+    top: -280px;
+    left: 350px;
+}
+
+.specialties__right-side {
+    margin: 150px 100px 217px 72px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.gallery-photo {
+    height: 337.5px;
+    width: calc(100%/4);
+}
+
+.contact {
+    text-align: center;
+    margin-top: 63px;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-subtitle {
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact__form-inputs input {
+    background: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+    height: 60px;
+    width: 350px;
+    margin-right: 11px;
+    padding-left: 10px;
+}
+
+.textarea {
+    width: 1103px;
+    height: 120px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 10px 10px 0;
+    padding-left: 10px;
+}
+
+.btn__send-message {
+    background: #E8C300;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    height: 60px;
+    color: white;
+    width: 1115px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+
+.google-map {
+    width: 100%;
+    height: 100vh;
+}
+
+.footer {
+    font-size: 12px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.footer span {
+    font-weight: 700;
+}
+
+.decoration {
+    height: 250px;
+    width: 250px;
+    border: 20px solid #E8C300;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 0px 100px #000000);
+    border-radius: 5px;
+}
