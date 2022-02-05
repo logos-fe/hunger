@@ -6,39 +6,198 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hunger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+<header class="header" id="home">
+    <div class="header_nav">
+        <div class="nav_left nav">
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#home" class="link">HOME</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#ABOUT" class="link">ABOUT</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#TEAM" class="link">TEAM</a>
+                </li>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="images/logo.png" class="header_logo" alt="">
+        </div>
+        <div class="nav_right nav">
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#BOOKING" class="link">BOOKING</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#GALERIE" class="link">GALERIE</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#CONTACT" class="link">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header_content">
+        <div class="right_section">
+            <p class="time">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+        </div>
+        <div class="center_section">
+            <p class="center_text"> RESTAURANT</p>
+            <h1 class="title">hungry people</h1>
+            <div class="line"></div>
+            <div class="button_section">
+                <button class="left_buuton button">BOOK TABLE</button>
+                <button class="right_button button">EXPLORE</button>
+            </div>
+        </div>
+        <div class="left_section">
+            <div class="all_icon">
+                <div class="facebook icon_box">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="twitter icon_box">
+                    <i class="fab fa-twitter"></i>
+                </div>
+                <div class="instagram icon_box">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_footer_icon icon_box">
+        <button class="footer_btn">
+            <i class="far fa-chevron-down"></i>
+        </button>
+    </div>
+</header>
 
-<div class="header">
-    <div class="header-nav">
-        <div class="header-nav-left">
-            <ul class="header-menu">
-                <li class="header-menu__item">Home</li>
-                <li class="header-menu__item">About</li>
-                <li class="header-menu__item">Team</li>
-            </ul>
-        </div>
-        <div class="header-nav-right">
-            <ul class="header-menu">
-                <li class="header-menu__item">Booking</li>
-                <li class="header-menu__item">Galerie</li>
-                <li class="header-menu__item">Contact</li>
-            </ul>
-        </div>
-        <div class="header-nav-logo">
-            <img src="./images/logo.png" alt="Logo">
-        </div>
+<section class="about" id="ABOUT">
+    <div class="about_text">
+        <h2 class="about_us">about us</h2>
+        <div class="line about_line"></div>
+        <p class="about_description"> <span class="bold_span"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span> <br><br>
+
+            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
     </div>
-    <div class="header-title">
-        <div class="subtitle">RESTAURANT</div>
-        <div class="title">Hungry people</div>
-        <div class="line"></div>
+    <div class="about_img">
+        <img src="images/about-img.png" class=""  alt="">
+        <div class="about_box"></div>
     </div>
-    <div class="header-buttons"></div>
-    <div class="header-arrow"></div>
+</section>
+<section class="team" id="TEAM">
+    <div class="team_header">
+        <p class="team_title_header">OUR TEAM</p>
+    </div>
+    <div class="team_container">
+    <div class="team_img">
+        <img src="images/our-team.png" class=""  alt="">
+        <div class="team_box"></div>
+    </div>
+    <div class="team_text">
+        <h2 class="about_us team_box_title">MASTER CHEF</h2>
+        <div class="line about_line"></div>
+        <p class="about_description team_description"> <span class="bold_span"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span> <br><br>
+
+            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+    </div>
+</div>
+</section>
+
+<section class="book" id="BOOKING">
+    <div class="book_text">
+        <h2 class="book_us">book a table</h2>
+        <div class="line book_line"></div>
+        <div class="input_cintainer">
+            <input type="text" class="input" placeholder="Name" >
+            <input type="email" class="input" placeholder="Email" >
+            <input type="number" class="input" placeholder="Phone" >
+            <select name="" class="input"  id="">
+                <option value="" >People</option>
+            </select>
+            <input type="date" class="input" placeholder="Date (mm/dd)" >
+           <select name="" class="input" pl id="">
+               <option value="">Time</option>
+        </select>
+        </div>
+        <button class="button_footer_book button">BOOK NOW</button>
+    </div>
+    <div class="about_img">
+        <img src="images/booking.png" class=""  alt="">
+        <div class="about_box"></div>
+    </div>
+</section>
+<div class="footer_box_book">
+    <p class="footer_text_book">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782</p>
 </div>
 
+<section class="special" id="GALERIE">
+    <div class="team_header">
+        <p class="team_title_header"> specialties</p>
+    </div>
+    <div class="team_container special_container">
+    <div class="team_img">
+        <img src="images/specialties.png" class=""  alt="">
+        <div class="team_box"></div>
+    </div>
+    <div class="team_text">
+        <h2 class="about_us team_box_title">chocolate pancakes</h2>
+        <div class="line about_line"></div>
+        <p class="about_description team_description"> <span class="bold_span"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span> <br><br>
+
+            Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+    </div>
+</div>
+<div class="point">
+    <div class="po"></div>
+    <div class="po poin"></div>
+    <div class="po"></div>
+</div>
+<div class="footer_img">
+    <img src="images/gallery1.png" class="fi" alt="">
+    <img src="images/gallery2.png" class="fi" alt="">
+    <img src="images/gallery3.png" class="fi" alt="">
+    <img src="images/gallery4.png" class="fi" alt="">
+</div>
+</section>
+
+<section class="contact" id="CONTACT">
+    <h2 class="about_us ">chocolate pancakes</h2>
+    <div class="line about_line"></div>
+    <p class="about_description contact_description"> <span class="bold_span"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</span> 
+    </p>
+</div>
+<div class="contact_content">
+    <div class="top_content">
+        <input type="text" class="input contact_input" placeholder="Name" >
+        <input type="email" class="input contact_input" placeholder="Email" >
+        <input type="number" class="input contact_input" placeholder="Phone" >
+    </div>
+    <div class="cont_textarea" >
+        <textarea name="" id="" placeholder="Message" cols="30" rows="10" class="contact_coment"></textarea>
+    </div>
+    <div class="cont_btn">
+    <button class="button_footer_book contact_button button">SEND MESSAGE</button>
+</div>
+</div>
+</section>
+
+<footer class="footer">
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158858.47340138938!2d-0.24168153443090962!3d51.528558241258565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2z0JvQvtC90LTQvtC9LCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sua!4v1643994081153!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="down">
+        <p class="down_text">© Copyright Mindblister  2019</p>
+    </div>
+</footer>
 </body>
 </html>
